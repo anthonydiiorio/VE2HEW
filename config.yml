@@ -1,0 +1,111 @@
+baseURL: 'https://ve2hew.com/'
+languageCode: en-us
+title: VE2HEW
+paginate: 10
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+enableEmoji: true
+
+#googleAnalytics: UA-8798487-4
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: "VE2HEW Anthony"
+  description: "A Ham Radio Blog by Anthony Di Iorio. Montreal, QC."
+  keywords: [Blog, Anthony Di Iorio, Montreal, Tech, VE2HEW]
+  author: Anthony Di Iorio
+  images: ["/summary.jpg"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: dark # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: false
+  disableSpecial1stPost: false
+  disableScrollToTop: true
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "/favicon-16x16.png"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/apple-touch-icon.png"
+
+  label:
+    text: "Anthony VE2HEW"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: Anthony Di Iorio
+    subtitle: "Good milk = strong bones."
+    imageUrl: "/anthony.jpg"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: Me
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  # home-info mode
+  homeInfoParams:
+    Title: "VE2HEW"
+    Content: >
+      Welcome to my ham radio blog. I'm Anthony from [**Montreal**](https://en.wikipedia.org/wiki/Montreal).
+
+      - My main interests are software-defined radio, satellites, DXing, contesting, and antennas.
+
+      - Sometimes writing about tech stuff on my [**personal blog**](https://diiorio.me) 💾
+
+  socialIcons:
+    - name: twitter
+      url: 'https://twitter.com/ve2hew'
+    - name: youtube
+      url: 'https://youtube.com/anthonydiiorio'
+    - name: flickr
+      url: 'https://flickr.com/photos/anthonydiiorio/'
+    - name: rss
+      url: /index.xml
+
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false  # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+menu:
+  main:
+    - identifier: Personal Blog
+      name: Personal Blog
+      url: 'https://diiorio.me'
+      weight: 10
+    - identifier: Logbook
+      name: Logbook
+      url: /logbook
+      weight: 20
+    - identifier: Contact
+      name: Contact
+      url: /contact
+      weight: 30
