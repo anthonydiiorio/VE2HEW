@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on VE2HEW</title>
+    <link>https://ve2hew.com/posts/</link>
+    <description>Recent content in Posts on VE2HEW</description>
+    <image>
+      <url>https://ve2hew.com/summary.jpg</url>
+      <link>https://ve2hew.com/summary.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Oct 2020 00:00:00 -0400</lastBuildDate><atom:link href="https://ve2hew.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LZ1AQ Loop Controller</title>
+      <link>https://ve2hew.com/posts/lz1aq-loop-controller/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 -0400</pubDate>
+      
+      <guid>https://ve2hew.com/posts/lz1aq-loop-controller/</guid>
+      <description>I wanted to build a fully remotable LZ1AQ Active Antenna controller with off the shelf components. It is very cheap to buy ESP8266 MCUs and multi-channel relay boards online. Why reinvent the wheel? This project can be easily adapted to control remote antenna switches and other devices that can be controlled with relays.
+Download on Github
+Schematic BOM    Part Number Description QTY     NodeMCU V2 Microcontroller with ESP8266 1   N/A 4 Channel Relay Module (Active Low) 1   RM2055M Hammond Enclosure (50 mm x 140 mm x 190 mm) 1   HC-6 Adhesive PCB Supports 8   BK/HTB-24M-R Fuse Holder 5mm x 20mm 1   5MF 300-R Fuse 300 mA 5mm x 20mm 10   N/A DC Connector of your choice 1   N/A Panel Mount Micro USB Extension 1   PGSD-8 Cable Grommet 1   N/A Hookup Wire Lots   N/A Dupont Jumpers Wires Lots    I used PC Motherboard standoffs and screws to rest the power inserter in the enclosure.</description>
+    </item>
+    
+    <item>
+      <title>LZ1AQ Loop Installed</title>
+      <link>https://ve2hew.com/posts/lz1aq-loop-installed/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 -0400</pubDate>
+      
+      <guid>https://ve2hew.com/posts/lz1aq-loop-installed/</guid>
+      <description>Finally had some time to install the loop outside. I was very impressed with it when I had it in prototype form indoors, but moving it outside really made a huge difference. The noise floor dropped, and sensitivity went through the roof on higher bands. There are signals I hear on the loop that don&amp;rsquo;t exist on my transmit antenna.
+Enclosure Parts    Part Number Description QTY     E987N-CAR Carlon PVC Junction Box - 4x4x4 Inches 1   CCLP-200-B5 Carlon Schedule 40 PVC Conduit Clamps 2 In 2   VENT-PS1YGY-N8001 Amphenol Vent With Nut 1   5309 221 Altech CABLE FDTHRU 7-16MM PG21 (Ethernet) 1   7211 856 Altech PG21 Locknut (Ethernet) 1   5308 920 Altech CABLE FDTHRU 2.</description>
+    </item>
+    
+    <item>
+      <title>PowerSDR Skin: Flat Blue</title>
+      <link>https://ve2hew.com/posts/power-sdr-skin-flat-blue/</link>
+      <pubDate>Tue, 17 Dec 2019 00:00:00 -0400</pubDate>
+      
+      <guid>https://ve2hew.com/posts/power-sdr-skin-flat-blue/</guid>
+      <description>This is my first skin for PowerSDR, OpenHPSDR, Thetis, NaP3, etc. It&amp;rsquo;s clean and simple. All the project files are in the repo for you to edit in Photoshop. I&amp;rsquo;ll probably make some more as time allows.
+Download on GitHub
+Setup -&amp;gt; Appearance General    VFO RGB Band Data RGB     Inactive 255 255 255 Inactive 191 191 191   Active 255 255 255 Active 218 218 218   Background 0 0 0 Out of Band 105 105 105   Small Color 255 255 255 Background 0 0 0   Info Color 255 140 0      RX Display    Panadapter RGB Grid RGB     Main RX Filter 255 255 255 Background 0 0 0   TX Filter 64 159 255 V-Grid 255 255 255   Band Edge 255 0 0 V-Grid Fine 255 255 255   MultiRX Filter 64 159 255 H-Grid 255 255 255   MultiRX Zero Line 135 206 250 Zero Line 255 255 255   GrayLine 0 0 0 Text 255 255 255       Cursor/Peak Readout RGB     Peak Text 30 144 255   Background 0 0 0    Instructions PowerSDR, OpenHPSDR, Thetis Thetis: copy skin folder to %AppData%\OpenHPSDR\Skins</description>
+    </item>
+    
+  </channel>
+</rss>
