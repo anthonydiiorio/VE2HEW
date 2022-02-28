@@ -21,7 +21,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: "VE2HEW Anthony"
   description: "A Ham Radio Blog by Anthony Di Iorio. Montreal, QC."
-  keywords: [Blog, Anthony Di Iorio, Montreal, Tech, VE2HEW]
+  keywords: [Blog, Anthony Di Iorio, Montreal, Tech, VE2HEW, Ham Radio]
   author: Anthony Di Iorio
   images: ["/summary.jpg"]
   DateFormat: "January 2, 2006"
