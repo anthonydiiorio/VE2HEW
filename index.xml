@@ -10,7 +10,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Oct 2020 00:00:00 -0400</lastBuildDate><atom:link href="https://ve2hew.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Feb 2022 19:43:59 -0500</lastBuildDate><atom:link href="https://ve2hew.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DIY Programming Cables</title>
+      <link>https://ve2hew.com/posts/diy-programming-cables/</link>
+      <pubDate>Mon, 28 Feb 2022 19:43:59 -0500</pubDate>
+      
+      <guid>https://ve2hew.com/posts/diy-programming-cables/</guid>
+      <description>Do you want to program your radio from your computer but don&amp;rsquo;t want to get ripped off with expensive programming cables from the manufacturer? In this article, you will find some great resources to build your own cables.
+Find a USB to Serial UART / TTL Dongle I&amp;rsquo;ve had great success with a Silicon Labs CP2102 UART dongle. Many other UART chips on the market should work as well. For example the CP2102N or CP2104.</description>
+    </item>
+    
     <item>
       <title>Contact</title>
       <link>https://ve2hew.com/contact/</link>
