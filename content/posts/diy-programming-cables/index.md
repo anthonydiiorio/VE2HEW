@@ -23,11 +23,11 @@ Wire as described below:
 ![](UART.png)
 
 **3.5 mm**  
-Sleeve = TX
+Sleeve -> TXD
 
 **2.5 mm**  
-Ring = RX  
-Sleeve = GND
+Ring -> RXD  
+Sleeve -> GND
 
 Programming software can be downloaded directly from Kenwood or use [CHIRP](https://chirp.danplanet.com/projects/chirp/wiki/Home) on compatible radios.
 
