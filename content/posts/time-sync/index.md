@@ -9,16 +9,15 @@ cover:
     hidden: false
 ---
 
-If you want to keep your computer clock perfectly in sync for digital modes, try these tools for Windows or Linux.
+If you want to keep your computer clock perfectly in sync for digital modes, try these tools for Windows or Linux. Meinberg NTP and Chrony can use data from multiple sources to keep your clock precisely synchronized.
 
+### Windows 🖥️
 
-### Windows
+[Meinberg NTP](https://www.meinbergglobal.com/english/sw/ntp.htm) is an excellent free time synchronization software for Windows. It's super lightweight, consuming only 1 MB of RAM!
 
-[Meinberg NTP](https://www.meinbergglobal.com/english/sw/ntp.htm) is an excellent free time synchronization software for Windows.
+You can customize the config file to add your own list of servers.
 
-You can customize the config file to add your own list of sources.
-
-I suggest using [NTP Pool](https://www.ntppool.org/en/) or [Cloudflare Time](https://www.cloudflare.com/time/). 
+I suggest using the [NTP Pool](https://www.ntppool.org/en/) or [Cloudflare Time](https://www.cloudflare.com/time/). 
 
 You can find many quality public time servers from this list:  
 [Github: 
@@ -29,13 +28,11 @@ mutin-sa/Public_Time_Servers.md ](https://gist.github.com/mutin-sa/eea1c396b1e61
 Run `Edit NTP Configuration` as Administrator
 
 ```
-...
 server 0.pool.ntp.org iburst minpoll 6 maxpoll 6
 server 1.pool.ntp.org iburst minpoll 6 maxpoll 6
 server 2.pool.ntp.org iburst minpoll 6 maxpoll 6
 server 3.pool.ntp.org iburst minpoll 6 maxpoll 6
 server time.cloudflare.com iburst minpoll 6 maxpoll 6
-...
 ```
 Then run `Restart NTP Service` as Administrator to apply your settings.
 
@@ -43,7 +40,7 @@ Run `Quick NTP Status` to view your connections:
 
 ![](meinberg.png)
 
-### Linux
+### Linux 🖥️
 
 [Chrony](https://chrony.tuxfamily.org/) is a high accuracy and very flexible implementation of Network Time Protocol (NTP). Chrony can work with an intermittent network connection, and can be used with external GPS devices. Very useful if you need to run FT8 portable!
 
@@ -62,9 +59,9 @@ yum install chrony
 
 #### Configuration
 
-You can customize the config file to add your own list of sources.
+You can customize the config file to add your own list of servers.
 
-I suggest using [NTP Pool](https://www.ntppool.org/en/) or [Cloudflare Time](https://www.cloudflare.com/time/). 
+I suggest using the [NTP Pool](https://www.ntppool.org/en/) or [Cloudflare Time](https://www.cloudflare.com/time/). 
 
 You can find many quality public time servers from this list:  
 [Github: 
