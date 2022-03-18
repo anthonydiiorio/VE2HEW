@@ -17,13 +17,9 @@
       <pubDate>Fri, 18 Mar 2022 00:00:00 -0400</pubDate>
       
       <guid>https://ve2hew.com/posts/time-sync/</guid>
-      <description>If you want to keep your computer clock perfectly in sync for digital modes, try these tools for Windows or Linux.
-Windows Meinberg NTP is an excellent free time synchronization software for Windows.
-You can customize the config file to add your own list of sources.
-I suggest using NTP Pool or Cloudflare Time.
-You can find many quality public time servers from this list:
-Github: mutin-sa/Public_Time_Servers.md 
-C:\Program Files (x86)\NTP\etc\ntp.</description>
+      <description>If you want to keep your computer clock perfectly in sync for digital modes, try these tools for Windows or Linux. Meinberg NTP and Chrony can use data from multiple sources to keep your clock precisely synchronized.
+Windows 🖥️ Meinberg NTP is an excellent free time synchronization software for Windows. It&amp;rsquo;s super lightweight, consuming only 1 MB of RAM!
+You can customize the config file to add your own list of servers.</description>
     </item>
     
     <item>
