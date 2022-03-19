@@ -119,3 +119,5 @@ Leap status     : Normal
 ### Done 😁
 
 Congratulations, now you can run FT8 in perfect sync!
+
+Check your accuracy on [Time.is](https://time.is) 🕒
