@@ -23,3 +23,8 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
+
+#my-form-status{
+  font-weight: bold;
+  text-align: center;
+}
