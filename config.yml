@@ -90,6 +90,13 @@ params:
     - name: rss
       url: /index.xml
 
+
+
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false  # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
   # for search
   # https://fusejs.io/api/options.html
   fuseOpts:
@@ -101,11 +108,12 @@ params:
     minMatchCharLength: 2
     keys: ["title", "permalink", "summary", "content"]
 
-  cover:
-    hidden: false # hide everywhere but not in structured data
-    hiddenInList: false  # hide on list pages and home
-    hiddenInSingle: false # hide on single page
-
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # necessary for search
+        
 menu:
   main:
     - identifier: Search
