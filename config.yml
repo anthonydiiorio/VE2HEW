@@ -90,6 +90,17 @@ params:
     - name: rss
       url: /index.xml
 
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.2
+    minMatchCharLength: 2
+    keys: ["title", "permalink", "summary", "content"]
+
   cover:
     hidden: false # hide everywhere but not in structured data
     hiddenInList: false  # hide on list pages and home
@@ -97,6 +108,10 @@ params:
 
 menu:
   main:
+    - identifier: Search
+      name: Search
+      url: /search
+      weight: 20
     - identifier: Personal Blog
       name: Personal Blog
       url: 'https://diiorio.me'
