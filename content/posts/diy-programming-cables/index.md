@@ -33,7 +33,7 @@ Programming software can be downloaded directly from Kenwood or use [CHIRP](http
 
 ### ICOM OPC-478U
 
-From N0DIM, the [DIY OPC-478U Radio Programming Cable](http://www.directdirt.com/2015/04/diy-opc-478u-radio-programming-cable-clone/) works great on a ton of Icom mobile radios and some Alinco radios. I used it on my Alinco DR-235 with [CHIRP](https://chirp.danplanet.com/projects/chirp/wiki/Home) and it made programming a breeze. For about $5 in parts that I had lying around, it sure beats the $67 asking price at my local dealer.
+From N0DIM, the [DIY OPC-478U Radio Programming Cable](http://n0dim.com/Documents/Build-a-OPC-478U-Clone-200727.pdf) works great on a ton of Icom mobile radios and some Alinco radios. I used it on my Alinco DR-235 with [CHIRP](https://chirp.danplanet.com/projects/chirp/wiki/Home) and it made programming a breeze. For about $5 in parts that I had lying around, it sure beats the $67 asking price at my local dealer.
 
 ![](Icom-Cable.jpg)
 
