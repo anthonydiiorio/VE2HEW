@@ -74,7 +74,7 @@ pool time.cloudflare.com iburst
 ```
 Then restart Chrony 
 
-`systemctl restart chrony`
+`sudo systemctl restart chrony`
 
 To view your connections run `chronyc sources -v`
 
