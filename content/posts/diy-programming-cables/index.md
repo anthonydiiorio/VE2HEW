@@ -14,6 +14,8 @@ Do you want to program your radio from your computer but don't want to get rippe
 
 I've had great success with a Silicon Labs CP2102 UART dongle. Many other UART chips on the market should work as well. For example the CP2102N or CP2104.
 
+Drivers from Silicon Labs: [CP210x USB to UART Bridge VCP Drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=overview)
+
 ### Kenwood K1
 
 One popular cable, the Kenwood K1 2-Pin is very easy to make and will program Kenwood HTs and many Chinese radios. 
