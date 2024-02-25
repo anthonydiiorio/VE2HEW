@@ -4,6 +4,9 @@ title: VE2HEW
 paginate: 10
 theme: PaperMod
 
+# Update sitemap with git
+enableGitInfo: true
+
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
