@@ -7,8 +7,6 @@ cover:
     alt: "Loop"
     relative: true # To use relative path for cover image, used in hugo Page-bundles
     hidden: true
-aliases:
-    - /2020/10/15/LZ1AQ-Loop-Installed.html #Old Jekyll Permalink
 ---
 
 Finally had some time to install the loop outside. I was very impressed with it when I had it in prototype form indoors, but moving it outside really made a huge difference. The noise floor dropped, and sensitivity went through the roof on higher bands. There are signals I hear on the loop that don't exist on my transmit antenna.

@@ -7,8 +7,6 @@ cover:
     alt: "Loop Controller"
     relative: true # To use relative path for cover image, used in hugo Page-bundles
     hidden: true
-aliases:
-    - /2019/12/16/LZ1AQ-Controller.html #Old Jekyll Permalink
 ---
 
 I wanted to build a fully remotable LZ1AQ Active Antenna controller with off the shelf components. It is very cheap to buy ESP8266 MCUs and multi-channel relay boards online. Why reinvent the wheel? This project can be easily adapted to control remote antenna switches and other devices that can be controlled with relays.

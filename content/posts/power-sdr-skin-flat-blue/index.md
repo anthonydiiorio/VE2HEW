@@ -7,8 +7,6 @@ cover:
     alt: "Thetis"
     relative: true # To use relative path for cover image, used in hugo Page-bundles
     hidden: true
-aliases:
-    - /2019/12/17/PowerSDR-Skin-Flat-Blue.html
 ---
 
 This is my first skin for PowerSDR, OpenHPSDR, Thetis, NaP3, etc. It's clean and simple. All the project files are in the repo for you to edit in Photoshop. I'll probably make some more as time allows.
