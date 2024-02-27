@@ -2,6 +2,7 @@
 title: "Time Syncing Software for Ham Radio"
 date: 2022-03-18T00:00:00-04:00
 draft: false
+tags: ["WSJT-X", "Timekeeping", "Digital Modes", "JTDX", "Linux"]
 cover:
     image: "timeis.png"
     alt: "Time.is"
@@ -9,7 +10,7 @@ cover:
     hidden: false
 ---
 
-If you want to keep your computer clock perfectly in sync for digital modes, try these tools for Windows or Linux. Meinberg NTP and Chrony can use data from multiple sources to keep your clock precisely synchronized.
+If you want to keep your computer clock perfectly in sync for digital modes like FT8, try these tools for Windows or Linux. Meinberg NTP and Chrony can use data from multiple sources to keep your clock precisely synchronized.
 
 ### Windows 🖥️
 

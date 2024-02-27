@@ -2,6 +2,7 @@
 title: "LZ1AQ Loop Installed"
 date: 2020-10-15T00:00:00-04:00
 draft: false
+tags: ["Antenna", "Receive Antenna"]
 cover:
     image: "outside.jpg"
     alt: "Loop"

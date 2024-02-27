@@ -2,6 +2,7 @@
 title: "LZ1AQ Loop Controller"
 date: 2020-10-16T00:00:00-04:00
 draft: false
+tags: ["Antenna", "Receive Antenna", "Arduino"]
 cover:
     image: "controller-1.jpg"
     alt: "Loop Controller"

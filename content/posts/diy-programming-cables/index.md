@@ -2,6 +2,7 @@
 title: "DIY Programming Cables"
 date: 2022-02-28T19:43:59-05:00
 draft: false
+tags: ["DIY"]
 cover:
      image: "Kenwood-Cable.jpg"
      alt: "Loop Controller"

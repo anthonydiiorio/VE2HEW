@@ -2,6 +2,7 @@
 title: "Retevis RT8 Review"
 date: 2019-11-29T00:00:00-04:00
 draft: false
+tags: ["Review", "VHF", "UHF", "DMR", "Digital Voice"]
 cover:
     image: "RT8.jpg"
     alt: "Retevis RT8 Image"
