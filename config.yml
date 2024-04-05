@@ -14,9 +14,9 @@ buildExpired: false
 
 enableEmoji: true
 
-services:
-  googleAnalytics:
-    ID: G-01TMS5LH0L
+#services:
+#  googleAnalytics:
+#    ID: 
 
 minify:
   disableXML: true
