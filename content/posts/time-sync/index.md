@@ -16,26 +16,24 @@ If you want to keep your computer clock perfectly in sync for digital modes like
 
 [Meinberg NTP](https://www.meinbergglobal.com/english/sw/ntp.htm) is an excellent free time synchronization software for Windows. It's super lightweight, consuming only 1 MB of RAM!
 
-You can customize the config file if you want to add your own list of servers.
+In the installer, check `Create an initial configuration file with the following settings:` and select your country from the dropdown menu.
 
-I suggest using the [NTP Pool](https://www.ntppool.org/en/) or [Cloudflare Time](https://www.cloudflare.com/time/). 
+You can customize the config file if you want to add your own list of servers.  
+I suggest using the [NTP Pool](https://www.ntppool.org/en/)
 
 You can find many quality public time servers from this list:  
 [Github: 
 mutin-sa/Public_Time_Servers.md ](https://gist.github.com/mutin-sa/eea1c396b1e610a2da1e5550d94b0453)
 
-`C:\Program Files (x86)\NTP\etc\ntp.conf`
-
-Run `Edit NTP Configuration` as Administrator
+To edit the server list, run `Edit NTP Configuration` as Administrator
 
 ```
-server 0.pool.ntp.org iburst minpoll 6 maxpoll 6
-server 1.pool.ntp.org iburst minpoll 6 maxpoll 6
-server 2.pool.ntp.org iburst minpoll 6 maxpoll 6
-server 3.pool.ntp.org iburst minpoll 6 maxpoll 6
-server time.cloudflare.com iburst minpoll 6 maxpoll 6
+server 0.pool.ntp.org iburst minpoll 6 maxpoll 7
+server 1.pool.ntp.org iburst minpoll 6 maxpoll 7
+server 2.pool.ntp.org iburst minpoll 6 maxpoll 7
+server 3.pool.ntp.org iburst minpoll 6 maxpoll 7
 ```
-Then run `Restart NTP Service` as Administrator to apply your settings.
+Then run `Restart NTP Service` as Administrator to apply your settings
 
 Run `Quick NTP Status` to view your connections:
 
@@ -49,20 +47,18 @@ Run `Quick NTP Status` to view your connections:
 
 ```
 # Debian/Ubuntu:
-sudo apt install chrony
+apt install chrony
 
 # Arch
 pacman -S chrony
 
-# RHEL/Fedora/CentOS
-yum install chrony
+# Rocky/Alma/Fedora
+dnf install chrony
 ```
 
 #### Configuration
 
-You can customize the config file to add your own list of servers.
-
-I suggest using the [NTP Pool](https://www.ntppool.org/en/) or [Cloudflare Time](https://www.cloudflare.com/time/). 
+You can customize the config file to add your own list of servers. I suggest using the [NTP Pool](https://www.ntppool.org/en/).
 
 You can find many quality public time servers from this list:  
 [Github: 
@@ -71,7 +67,6 @@ mutin-sa/Public_Time_Servers.md ](https://gist.github.com/mutin-sa/eea1c396b1e61
 `/etc/chrony/chrony.conf`
 ```
 pool pool.ntp.org iburst
-pool time.cloudflare.com iburst
 ```
 Then restart Chrony 
 
@@ -97,8 +92,8 @@ MS Name/IP address         Stratum Poll Reach LastRx Last sample
 ^- 1.ca.pool.ntp.org             2  10   377   806  -1674us[-1674us] +/-   45ms
 ^- 2.ca.pool.ntp.org             2  10   377   24m  -4359us[-4359us] +/-   57ms
 ^* 3.ca.pool.ntp.org             2  10   377   45m  -4140us[-4083us] +/-   13ms
-^- time.cloudflare.com           3  10   377   378  -1669us[-1669us] +/-   40ms
 ```
+
 To check if your computer is synchronized, run `chronyc tracking` 
 
 ```
