@@ -16,7 +16,7 @@ If you want to keep your computer clock perfectly in sync for digital modes like
 
 [Meinberg NTP](https://www.meinbergglobal.com/english/sw/ntp.htm) is an excellent free time synchronization software for Windows. It's super lightweight, consuming only 1 MB of RAM!
 
-In the installer, check `Create an initial configuration file with the following settings:` and select your country from the dropdown menu.
+In the installer, check `Create an initial configuration file with the following settings:` and select **Worldwide** from the dropdown menu. This will automatically select the best servers for you.
 
 You can customize the config file if you want to add your own list of servers.  
 I suggest using the [NTP Pool](https://www.ntppool.org/en/)
@@ -28,10 +28,10 @@ mutin-sa/Public_Time_Servers.md ](https://gist.github.com/mutin-sa/eea1c396b1e61
 To edit the server list, run `Edit NTP Configuration` as Administrator
 
 ```
-server 0.pool.ntp.org iburst minpoll 6 maxpoll 7
-server 1.pool.ntp.org iburst minpoll 6 maxpoll 7
-server 2.pool.ntp.org iburst minpoll 6 maxpoll 7
-server 3.pool.ntp.org iburst minpoll 6 maxpoll 7
+server 0.pool.ntp.org iburst
+server 1.pool.ntp.org iburst
+server 2.pool.ntp.org iburst
+server 3.pool.ntp.org iburst
 ```
 Then run `Restart NTP Service` as Administrator to apply your settings
 
