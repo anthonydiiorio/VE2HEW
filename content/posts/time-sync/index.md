@@ -28,10 +28,10 @@ mutin-sa/Public_Time_Servers.md ](https://gist.github.com/mutin-sa/eea1c396b1e61
 To edit the server list, run `Edit NTP Configuration` as Administrator
 
 ```
-server 0.pool.ntp.org iburst
-server 1.pool.ntp.org iburst
-server 2.pool.ntp.org iburst
-server 3.pool.ntp.org iburst
+server 0.pool.ntp.org iburst minpoll 6 maxpoll 7
+server 1.pool.ntp.org iburst minpoll 6 maxpoll 7
+server 2.pool.ntp.org iburst minpoll 6 maxpoll 7
+server 3.pool.ntp.org iburst minpoll 6 maxpoll 7
 ```
 Then run `Restart NTP Service` as Administrator to apply your settings
 
