@@ -1,5 +1,5 @@
 input, textarea {
-    width: 100% !important;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -24,7 +24,15 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-#my-form-status{
+#my-form-status {
   font-weight: bold;
   text-align: center;
+}
+
+.whole-milk {
+  width: 0px;
+  border: none;
+  opacity: 100; 
+  position: absolute; 
+  left: -9999px;
 }
