@@ -10,8 +10,9 @@ input, textarea {
 }
 
 button[type=submit] {
-  width: 100%;
-  padding: 14px;
+  width: 200px;
+  padding: 14px 30px;
+  margin: 8px 0;
   background: #4CAF50;
   color: #fff;
   border: 0;
