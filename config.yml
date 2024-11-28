@@ -1,7 +1,8 @@
 baseURL: 'https://ve2hew.com/'
 languageCode: en-us
 title: VE2HEW
-paginate: 10
+pagination:
+  pagerSize: 10
 theme: PaperMod
 
 # Update sitemap with git
