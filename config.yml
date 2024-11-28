@@ -85,19 +85,21 @@ params:
 
       - Sometimes writing about tech stuff on my [**personal blog**](https://diiorio.me) 💾
 
-  socialIcons:
-    - name: x
-      url: 'https://x.com/ve2hew'
-    - name: instagram
-      url: https://instagram.com/ant.diiorio
-    - name: youtube
-      url: 'https://youtube.com/anthonydiiorio'
-    - name: mastodon
-      url: 'https://mastodon.social/@VE2HEW'
-    - name: flickr
-      url: 'https://flickr.com/photos/anthonydiiorio/'
-    - name: rss
-      url: /index.xml
+    socialIcons:
+      - name: x
+        url: 'https://x.com/ve2hew'
+      - name: instagram
+        url: https://instagram.com/ant.diiorio
+      - name: youtube
+        url: 'https://youtube.com/anthonydiiorio'
+      - name: mastodon
+        url: 'https://mastodon.social/@VE2HEW'
+      - name: bluesky
+        url: 'https://bsky.app/profile/diiorio.me'
+      - name: flickr
+        url: 'https://flickr.com/photos/anthonydiiorio/'
+      - name: rss
+        url: /index.xml
 
   cover:
     hidden: false # hide everywhere but not in structured data
