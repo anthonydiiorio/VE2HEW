@@ -47,6 +47,9 @@ params:
   showtoc: false
   tocopen: false
 
+  social:
+    fediverse_creator: "@VE2HEW@mastodon.social"
+
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
