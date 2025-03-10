@@ -94,8 +94,6 @@ params:
       url: 'https://mastodon.social/@VE2HEW'
     - name: bluesky
       url: 'https://bsky.app/profile/diiorio.me'
-    - name: x
-      url: 'https://x.com/ve2hew'
     - name: instagram
       url: https://instagram.com/ant.diiorio
     - name: youtube
